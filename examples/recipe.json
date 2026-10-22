@@ -1,0 +1,38 @@
+{
+  "version": "fixtureforge-1",
+  "rows": 40,
+  "seed": "next-byte-2026",
+  "columns": [
+    {
+      "name": "order_id",
+      "type": "sequence",
+      "nullPercent": 0,
+      "min": 1001
+    },
+    {
+      "name": "region",
+      "type": "category",
+      "nullPercent": 0,
+      "choices": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ]
+    },
+    {
+      "name": "items",
+      "type": "integer",
+      "nullPercent": 0,
+      "min": 1,
+      "max": 12
+    },
+    {
+      "name": "amount",
+      "type": "decimal",
+      "nullPercent": 10,
+      "min": 10,
+      "max": 200
+    }
+  ]
+}
