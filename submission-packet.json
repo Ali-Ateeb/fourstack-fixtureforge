@@ -14,8 +14,7 @@
   "verification": "Nine core tests pass. Actual browser generated the synthetic 40-row/four-column fixture with three missing amounts. Real CSV and recipe JSON downloads inspected. Duplicate column error and stale result hiding verified. GitHub Pages build succeeded and public UI generated the same fixture. Devpost title, pitch, story, JavaScript tag, source/demo links and two screenshots saved; final page shows Draft 3/4 and both Ali members. Contributor join confirmation preserved. October 23: hosted 2:46 MP4 playback verified, duration 165.991 seconds, currentTime 7.669, readyState 4, no error. Production disclosure saved in the existing Devpost draft; final review still lists both Ali members with unchecked agreement. YouTube upload is not completed.",
   "blockers": [
     "Finished 2:46 video awaits YouTube upload and publication verification.",
-    "Final Next Byte agreement remains unchecked; no final project submission.",
-    "Anas and Obaidullah still require their own registrations/joins for a four-member team."
+    "Final Next Byte agreement remains unchecked; no final project submission."
   ],
   "event_url": "https://next-byte-hacks-v5.devpost.com/",
   "deadline_pakistan": "2026-11-01T02:00:00+05:00",
@@ -28,5 +27,14 @@
   ],
   "local_video": "media/demo.mp4",
   "video_duration_seconds": 165.99,
-  "hosted_video_url": "https://ali-ateeb.github.io/fourstack-fixtureforge/media/demo.mp4"
+  "hosted_video_url": "https://ali-ateeb.github.io/fourstack-fixtureforge/media/demo.mp4",
+  "requested_submission_members": [
+    "member-4",
+    "member-3"
+  ],
+  "requested_team_joined": true,
+  "optional_remaining_members": [
+    "member-1",
+    "member-2"
+  ]
 }
