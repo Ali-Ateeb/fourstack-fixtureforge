@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T05:17:08.430935+00:00",
+  "checked_at": "2026-10-23T06:33:33.383614+00:00",
   "duration_seconds": 165.99,
   "resolution": "1280x720",
   "video_codec": "H.264",
@@ -8,6 +8,15 @@
   "sha256": "1b3fffc219223ab82561de791752a273bb47637d581afb52117e563012cbbb33",
   "verification": "Complete ffmpeg video/audio decode passed on October 22; actual screenshots visually reviewed. No new encoding or application changes since.",
   "production": "Edited actual browser captures, invented data, synthetic Windows narration; Codex assistance disclosed.",
-  "youtube_uploaded": false,
-  "blocker": "YouTube upload is pending; no publication confirmation exists."
+  "youtube_uploaded": true,
+  "youtube_url": "https://youtu.be/7Ef6lMVI-VQ",
+  "youtube_confirmation": "Video published",
+  "public_playback": {
+    "currentTime": 11.354193,
+    "duration": 166.041,
+    "error": null,
+    "paused": false,
+    "readyState": 4
+  },
+  "captions": "Studio confirmed English subtitles published; public player initially reported unavailable."
 }

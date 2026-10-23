@@ -1,7 +1,7 @@
 {
   "title": "FixtureForge",
-  "status": "demo_complete_youtube_connection_pending",
-  "checked_at": "2026-10-23T05:17:08.430935+00:00",
+  "status": "draft_ready_final_agreement_pending",
+  "checked_at": "2026-10-23T06:33:33.383614+00:00",
   "project_submitted": false,
   "repository_url": "https://github.com/Ali-Ateeb/fourstack-fixtureforge",
   "demo_url": "https://ali-ateeb.github.io/fourstack-fixtureforge/",
@@ -11,14 +11,13 @@
     "member-4",
     "member-3"
   ],
-  "verification": "Nine core tests pass. Actual browser generated the synthetic 40-row/four-column fixture with three missing amounts. Real CSV and recipe JSON downloads inspected. Duplicate column error and stale result hiding verified. GitHub Pages build succeeded and public UI generated the same fixture. Devpost title, pitch, story, JavaScript tag, source/demo links and two screenshots saved; final page shows Draft 3/4 and both Ali members. Contributor join confirmation preserved. October 23: hosted 2:46 MP4 playback verified, duration 165.991 seconds, currentTime 7.669, readyState 4, no error. Production disclosure saved in the existing Devpost draft; final review still lists both Ali members with unchecked agreement. YouTube upload is not completed.",
+  "verification": "Nine core tests pass. Actual browser generated the synthetic 40-row/four-column fixture with three missing amounts. Real CSV and recipe JSON downloads inspected. Duplicate column error and stale result hiding verified. GitHub Pages build succeeded and public UI generated the same fixture. Devpost title, pitch, story, JavaScript tag, source/demo links and two screenshots saved; final page shows Draft 3/4 and both Ali members. Contributor join confirmation preserved. October 23: hosted 2:46 MP4 playback verified, duration 165.991 seconds, currentTime 7.669, readyState 4, no error. Production disclosure saved in the existing Devpost draft; final review still lists both Ali members with unchecked agreement.  October 23: YouTube confirmed Video published as Unlisted after explicit agreement approval; public playback reached 11.354 seconds with readyState 4 and no error. Studio confirmed English subtitles published. Existing Devpost preview embeds this video; final review remains Draft 3/4 with Ali Ateeb and Ali Zulfikar and unchecked final agreement.",
   "blockers": [
-    "Finished 2:46 video awaits YouTube upload and publication verification.",
     "Final Next Byte agreement remains unchecked; no final project submission."
   ],
   "event_url": "https://next-byte-hacks-v5.devpost.com/",
   "deadline_pakistan": "2026-11-01T02:00:00+05:00",
-  "video_url": null,
+  "video_url": "https://youtu.be/7Ef6lMVI-VQ",
   "final_submission_receipt": null,
   "team_membership_complete": false,
   "screenshots": [
