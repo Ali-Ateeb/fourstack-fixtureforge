@@ -21,3 +21,8 @@ Nine core tests cover repeatability, different seeds, inclusive bounds, decimal 
 ## Limits and next steps
 
 The prototype does not enforce relationships across columns, produce correlated real-world data, read private datasets, or use cryptographic randomness. Decimal values support two decimal places. Exported files contain user-entered categories, so use invented values. Recipe JSON preserves original text; CSV formula-prefix handling is a precaution, not a universal spreadsheet security guarantee. Future work could add recipe import, date types and explicit cross-column constraints; none is currently implemented.
+
+
+## Demo production
+
+The finished 2:46 demonstration is an edited walkthrough of actual browser captures with invented order data and synthetic Windows text-to-speech narration. Codex assisted with demo preparation. It is not a continuous screen recording. Transcript and timed captions are included in the public repository.
