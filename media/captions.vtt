@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.005
+FixtureForge helps prototype teams create small, repeatable CSV test fixtures without copying
+
+00:00:06.005 --> 00:00:12.010
+real records into a demo. This edited walkthrough uses actual browser captures and synthetic
+
+00:00:12.010 --> 00:00:18.015
+narration. All orders and category values shown are invented. The app runs locally in the
+
+00:00:18.015 --> 00:00:24.020
+browser, without sign in, an API key or a data upload.
+
+00:00:25.020 --> 00:00:31.642
+Start with a recipe: forty rows, a fixed seed, and four columns. Order identifiers are
+
+00:00:31.642 --> 00:00:38.263
+consecutive integers. Regions come from four choices. Item counts range from one to twelve, and
+
+00:00:38.263 --> 00:00:44.884
+amounts range from ten to two hundred at cent precision. Amounts have a ten percent probability
+
+00:00:44.884 --> 00:00:51.505
+of being missing. That is a sampled probability, not an exact quota.
+
+00:00:52.505 --> 00:00:58.837
+Generate produces forty rows and reports three missing cells for this specific seed. The table
+
+00:00:58.837 --> 00:01:05.168
+previews the first ten records, including a missing amount in row eight. The same version, seed
+
+00:01:05.168 --> 00:01:11.499
+and complete recipe reproduce the same values. Changing the seed or column order changes the
+
+00:01:11.499 --> 00:01:17.830
+generated fixture. This generator is deterministic, not cryptographic randomness.
+
+00:01:18.830 --> 00:01:25.074
+Download CSV exports all forty rows, while recipe JSON keeps the parameters for reproduction.
+
+00:01:25.074 --> 00:01:31.318
+Both actual downloads were inspected. CSV quotes commas, newlines and embedded quotes. Common
+
+00:01:31.318 --> 00:01:37.562
+spreadsheet formula prefixes in category text receive an apostrophe; negative numeric values
+
+00:01:37.562 --> 00:01:43.806
+stay numeric. This is a precaution, not a guarantee for every spreadsheet program. The app does
+
+00:01:43.806 --> 00:01:50.049
+not yet import recipe files.
+
+00:01:51.049 --> 00:01:56.155
+A changed recipe invalidates the previous result immediately. Here editing the region column
+
+00:01:56.155 --> 00:02:01.260
+hides both the table and download buttons, and asks us to generate again. That prevents an old
+
+00:02:01.260 --> 00:02:06.365
+fixture from being exported as if it reflected the edited settings. No inputs or results are
+
+00:02:06.365 --> 00:02:11.470
+saved after a page reload.
+
+00:02:12.470 --> 00:02:18.961
+Generating with a duplicate column name produces a readable error, even when only letter case
+
+00:02:18.961 --> 00:02:25.452
+differs. Nine core tests cover repeatability, bounds, decimal precision, missing values,
+
+00:02:25.452 --> 00:02:31.942
+validation and CSV edge cases. Codex assisted with code, tests, documentation and this demo.
+
+00:02:31.942 --> 00:02:38.433
+FixtureForge does not anonymize data, enforce relationships between columns, or simulate a real
+
+00:02:38.433 --> 00:02:44.924
+population. Use invented categories and review exports before sharing.

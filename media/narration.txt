@@ -1,0 +1,11 @@
+FixtureForge helps prototype teams create small, repeatable CSV test fixtures without copying real records into a demo. This edited walkthrough uses actual browser captures and synthetic narration. All orders and category values shown are invented. The app runs locally in the browser, without sign in, an API key or a data upload.
+
+Start with a recipe: forty rows, a fixed seed, and four columns. Order identifiers are consecutive integers. Regions come from four choices. Item counts range from one to twelve, and amounts range from ten to two hundred at cent precision. Amounts have a ten percent probability of being missing. That is a sampled probability, not an exact quota.
+
+Generate produces forty rows and reports three missing cells for this specific seed. The table previews the first ten records, including a missing amount in row eight. The same version, seed and complete recipe reproduce the same values. Changing the seed or column order changes the generated fixture. This generator is deterministic, not cryptographic randomness.
+
+Download CSV exports all forty rows, while recipe JSON keeps the parameters for reproduction. Both actual downloads were inspected. CSV quotes commas, newlines and embedded quotes. Common spreadsheet formula prefixes in category text receive an apostrophe; negative numeric values stay numeric. This is a precaution, not a guarantee for every spreadsheet program. The app does not yet import recipe files.
+
+A changed recipe invalidates the previous result immediately. Here editing the region column hides both the table and download buttons, and asks us to generate again. That prevents an old fixture from being exported as if it reflected the edited settings. No inputs or results are saved after a page reload.
+
+Generating with a duplicate column name produces a readable error, even when only letter case differs. Nine core tests cover repeatability, bounds, decimal precision, missing values, validation and CSV edge cases. Codex assisted with code, tests, documentation and this demo. FixtureForge does not anonymize data, enforce relationships between columns, or simulate a real population. Use invented categories and review exports before sharing.

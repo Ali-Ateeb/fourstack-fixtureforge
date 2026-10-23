@@ -31,4 +31,4 @@ Schedule: https://next-byte-hacks-v5.devpost.com/details/dates
 
 Permitted build window: October 6, 2026 04:00 UTC to October 31 21:00 UTC. Deadline: **November 1, 2026, 02:00 Pakistan time**. Worldwide teams of 1–4; all supplied members fit the published age/student alternatives. Rules prohibit AI code that violates platform/tool policies; assistance is disclosed. New work only. Required description, repository, screenshots and a demo remain separate from registration. The overview asks for 1–3 minutes and rules for 2–5 minutes: target 2–3 minutes to satisfy both.
 
-Draft created, software 1499712 / submission 1254130. No final submission claimed. Demo video remains to be prepared. Intended remaining members must use their own registered accounts.
+Draft created, software 1499712 / submission 1254130. No final submission claimed. The 2:46 edited actual-capture demo is finished at `media/demo.mp4` and passed complete audio/video decoding; YouTube upload and publication verification are pending. Intended remaining members must use their own registered accounts.

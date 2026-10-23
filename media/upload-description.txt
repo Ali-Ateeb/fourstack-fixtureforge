@@ -1,0 +1,12 @@
+FixtureForge — FourStack | Next Byte Hacks V5 Demo
+
+Working app: https://ali-ateeb.github.io/fourstack-fixtureforge/
+Source and setup: https://github.com/Ali-Ateeb/fourstack-fixtureforge
+
+Make small, repeatable synthetic CSV test fixtures for prototypes. The example shows an explicit four-column recipe, seeded generation of 40 invented orders, previewed missing values, CSV/recipe export controls, stale-result protection and duplicate-column validation. Both real downloads were inspected separately.
+
+This 2:46 demo is an edited walkthrough using actual browser captures, invented orders and synthetic Windows text-to-speech narration. It is not a continuous screen recording. Codex assisted with planning, code, tests, documentation and video preparation. No AI model is integrated into the app. English transcript and timed captions are included in the repository.
+
+Limits: 1–10,000 rows, 1–12 columns; sequence, integer, cent-precision decimal and category types. Missing percentages are probabilities, not exact quotas. No recipe import, relational constraints, real-world distribution modeling or cryptographic randomness. This generates test fixtures; it does not anonymize real information. Exports contain any category values you enter. CSV formula-prefix handling is a precaution, not a universal spreadsheet safety guarantee.
+
+New application work began October 22, 2026 during the Next Byte build window. Nine core tests pass; this is not a general correctness or realism guarantee.

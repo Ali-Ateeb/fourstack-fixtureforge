@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-23T05:17:08.430935+00:00",
+  "duration_seconds": 165.99,
+  "resolution": "1280x720",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "bytes": 2478852,
+  "sha256": "1b3fffc219223ab82561de791752a273bb47637d581afb52117e563012cbbb33",
+  "verification": "Complete ffmpeg video/audio decode passed on October 22; actual screenshots visually reviewed. No new encoding or application changes since.",
+  "production": "Edited actual browser captures, invented data, synthetic Windows narration; Codex assistance disclosed.",
+  "youtube_uploaded": false,
+  "blocker": "YouTube upload is pending; no publication confirmation exists."
+}
