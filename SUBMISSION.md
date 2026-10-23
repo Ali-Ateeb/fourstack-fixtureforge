@@ -10,8 +10,8 @@ Current team: Ali Ateeb and Ali Zulfikar (two joined accounts). Anas and Obaidul
 - Working app: https://ali-ateeb.github.io/fourstack-fixtureforge/
 - Required demonstration: `media/demo.mp4`, 2:46, 1280×720 H.264/AAC. Complete video and audio decoding passed. Actual browser captures, invented order data, synthetic Windows narration and Codex assistance are disclosed. Transcript and timed VTT captions are prepared.
 - YouTube URL: https://youtu.be/7Ef6lMVI-VQ — published Unlisted, 2:46, actual playback verified and link saved in the existing Devpost draft. Studio confirmed English subtitles published; public player initially reported captions unavailable.
-- Draft description, JavaScript tag, repository/app links and two genuine screenshots were previously saved. Final review shows 3/4 steps and both joined members; preview embeds the correct published video. Ready for final agreement and submission.
-- Final Next Byte agreement is unchecked. This is not a submitted project.
+- Draft description, JavaScript tag, repository/app links and two genuine screenshots were previously saved. Final review shows 3/4 steps and both joined members; preview embeds the correct published video. Final submission confirmed October 23; both Ali members remain joined.
+- Final Next Byte agreement accepted after explicit action-time confirmation; Devpost returned Project submitted! October 23, 2026.
 - Deadline: **November 1, 2026, 02:00 Pakistan time**.
 
 Rules: https://next-byte-hacks-v5.devpost.com/rules
