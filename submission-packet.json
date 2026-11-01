@@ -9,7 +9,8 @@
   "public_project_url": "https://devpost.com/software/fixtureforge-7w0ym1",
   "project_members": [
     "member-4",
-    "member-3"
+    "member-3",
+    "member-1"
   ],
   "verification": "Nine core tests pass. Actual browser generated the synthetic 40-row/four-column fixture with three missing amounts. Real CSV and recipe JSON downloads inspected. Duplicate column error and stale result hiding verified. GitHub Pages build succeeded and public UI generated the same fixture. Devpost title, pitch, story, JavaScript tag, source/demo links and two screenshots saved; final page shows Draft 3/4 and both Ali members. Contributor join confirmation preserved. October 23: hosted 2:46 MP4 playback verified, duration 165.991 seconds, currentTime 7.669, readyState 4, no error. Production disclosure saved in the existing Devpost draft; final review still lists both Ali members with unchecked agreement.  October 23: YouTube confirmed Video published as Unlisted after explicit agreement approval; public playback reached 11.354 seconds with readyState 4 and no error. Studio confirmed English subtitles published. Existing Devpost preview embeds this video; final review remains Draft 3/4 with Ali Ateeb and Ali Zulfikar and unchecked final agreement. Final Next Byte agreement accepted after explicit action-time approval October 23. Devpost returned Project submitted! and public page shows Submitted to Next Byte Hacks V5 with both Ali members.",
   "blockers": [],
@@ -33,5 +34,10 @@
   "optional_remaining_members": [
     "member-1",
     "member-2"
-  ]
+  ],
+  "current_deadline_pakistan": "2026-11-08T03:00:00+05:00",
+  "current_deadline_source": "https://next-byte-hacks-v5.devpost.com/details/dates",
+  "current_deadline_checked_at": "2026-11-01T17:23:03.704801+00:00",
+  "project_members_checked_at": "2026-10-25T16:27:26.440Z",
+  "documentation_update_note": "November1 documentation update from current public schedule and saved October25 join receipt. No new application,roster change or product submission;original receipt deadline preserved."
 }
